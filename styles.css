@@ -1,0 +1,41 @@
+body {
+  font-family: sans-serif;
+  padding: 0 20px;
+  color: gray;
+}
+h1 {
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 28px;
+  margin-top: 20px;
+}
+li {
+  list-style: none;
+  line-height: 1;
+  height: 19px;
+}
+ul {
+  margin: 0 0 10px;
+  padding: 0;
+}
+.weather-app {
+  border: 1px solid gray;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  border-radius: 10px;
+}
+.temperature {
+  color: gray;
+  font-size: 65px;
+  font-weight: 400;
+  line-height: 1;
+}
+.weather-icon {
+  height: 44px;
+  width: 44px;
+}
+.units {
+  position: relative;
+  top: -32px;
+}
